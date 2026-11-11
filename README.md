@@ -17,7 +17,7 @@ Group Members:
 | Name | Student ID |
 |---|---|
 | Chaiyasit Thirayansit | 6730111821 |
-| Thanaphon Wongsitthinont | - |
+| Thanaphon Wongsitthinont | 6730209721 |
 | Chayanan Vongsawasdi | 6730087421 |
 
 
