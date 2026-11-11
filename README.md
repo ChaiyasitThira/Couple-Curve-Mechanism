@@ -6,7 +6,7 @@ Project name: Couple Curve Mechanism
 
 Problem / purpose: TBD
 
-Team: TBD
+Team: นักรบมังกรคนสุดท้าย
 
 Status: Planning
 
@@ -16,7 +16,10 @@ Group Members:
 
 | Name | Student ID |
 |---|---|
-| TBD | TBD |
+| Chaiyasit Thirayansit | 6730111821 |
+| Thanaphon Wongsitthinont | - |
+| Chayanan Vongsawasdi | 6730087421 |
+
 
 ## Repository structure
 
