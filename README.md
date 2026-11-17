@@ -51,8 +51,6 @@ Group Members:
 
 ### 1.2. Degrees of Freedom and Grashof Analysis
 
-**Degrees of Freedom**
-
 For a planar mechanism, the Grübler–Kutzbach criterion is
 
 $$
@@ -72,7 +70,7 @@ $$
 DoF=3(4-1)-2(4)-0=\boxed{1}.
 $$
 
-**Grashof Analysis**
+### 1.3.  Grashof Analysis
 
 The Grashof condition for a planar four-bar linkage is
 
