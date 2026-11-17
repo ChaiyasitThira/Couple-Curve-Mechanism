@@ -28,13 +28,89 @@ Group Members:
 
 ## Part I: Basics including kinematic diagram, DoF analysis
 
-### 1.1. Link and Joint Identification
+### 1.1. Kinematic Diagram
 
 ![pic1](Picture/kinematic_diagram.png)
 
 *Figure 1. Kinematic diagram of coupler curve mechanism*
 
-### 1.2. Degrees of Freedom (DOF)
+**Link Identification**
+
+| Link | Element |
+|---|---|
+| 1 | Ground O2–O4 |
+| 2 | Input O2–A |
+| 3 | Coupler A–B, carrying P1–P3 |
+| 4 | Output O4–B |
+
+**Joint Identification**
+
+| Joint | Joint type | Classification |
+|---|---|---|
+| O2 | Revolute | Lower pair (J1) |
+| A | Revolute | Lower pair (J1) |
+| B | Revolute | Lower pair (J1) |
+| O4 | Revolute | Lower pair (J1) |
+
+### 1.2. Degrees of Freedom and Grashof Analysis
+
+**Degrees of Freedom**
+
+For a planar mechanism, the Grübler–Kutzbach criterion is
+
+$$
+DoF=3(N-1)-2J_1-J_2
+$$
+
+where N is the number of links including the ground, J1 is the number
+of one-DOF joints, and J2 is the number of two-DOF joints.
+
+For this mechanism,
+
+$$
+N=4,\qquad J_1=4,\qquad J_2=0
+$$
+
+$$
+DoF=3(4-1)-2(4)-0=\boxed{1}.
+$$
+
+**Grashof Analysis**
+
+The Grashof condition for a planar four-bar linkage is
+
+$$
+s+l\leq p+q
+$$
+
+where s and l are the shortest and longest link lengths, and p and q
+are the remaining two lengths.
+
+| Symbol | Corresponding link | Length |
+|---|---|---|
+| s | l2 | 30 mm |
+| l | l1 | 90 mm |
+| p | l3 | 75 mm |
+| q | l4 | 75 mm |
+
+Substituting the dimensions gives
+
+$$
+s+l=30+90=120\ \text{mm}
+$$
+
+$$
+p+q=75+75=150\ \text{mm}
+$$
+
+$$
+120<150.
+$$
+
+The linkage satisfies the strict Grashof condition. Since the ground
+is adjacent to the shortest link, the selected inversion is a
+crank–rocker mechanism. Link 2 can rotate continuously through 360°,
+while Link 4 oscillates about O4.
 
 ## Part II: Symbolic Math for the Selected Mechanism
 
