@@ -217,6 +217,9 @@ $$
 \right\}.
 $$
 
+![MATLAB coupler paths](Picture/coupler_paths.png)
+
+*Figure 1. Paths traced by P1, P2, and P3 during one complete input-crank revolution.*
 **Interpretation of the generated paths**
 
 P1, P2, and P3 produce different closed curves because their fixed
