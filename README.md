@@ -25,14 +25,8 @@ Group Members:
 | machine-skills/ | Machine commands, procedures, and skill instructions |
 | Simulation/ | Models, scripts, assumptions, and simulation results |
 | docs/ | Assembly, setup, operation, and maintenance instructions |
-| media/ | Images, GIFs, and links to demonstration videos |
-| experiments/ | Procedures, raw data, and results |
 | Picture/ | Pictures used in this README |
 | Animation/ | Animations used in this README |
-
-## Collaboration and file practices
-
-## Safety and validation
 
 ## Part I: Basics including kinematic diagram, DoF analysis
 
@@ -239,8 +233,6 @@ paths through the selection of link dimensions and tracing-point
 locations. The present analysis evaluates the three point locations
 defined in the MATLAB model. Matching a specified target curve would
 require an additional synthesis or optimization procedure.
-
-### 2.3. Velocity and Acceleration Analysis
 
 ## Part III: Simscape Multibody
 
