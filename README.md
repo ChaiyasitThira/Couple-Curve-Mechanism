@@ -66,8 +66,6 @@ crank-angle plots show each point's coordinates throughout one revolution.
 
 *Video 1. MATLAB animation showing the linkage and synchronized position, velocity, and acceleration plots.*
 
-https://github.com/ChaiyasitThira/Couple-Curve-Mechanism/issues/1
-
 ### 2.2. Governing Equations and Position Analysis
 
 **Joint coordinates and loop closure**
