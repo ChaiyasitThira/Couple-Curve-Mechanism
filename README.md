@@ -39,9 +39,9 @@ Group Members:
 | Link | Element |
 |---|---|
 | 1 | Ground O2–O4 |
-| 2 | Input O2–A |
+| 2 | Input crank O2–A |
 | 3 | Coupler A–B, carrying P1–P3 |
-| 4 | Output O4–B |
+| 4 | Output rocker O4–B |
 
 **Joint Identification**
 
