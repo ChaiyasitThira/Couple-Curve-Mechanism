@@ -121,11 +121,9 @@ $$
 
 The offsets betai are converted to radians for evaluation in MATLAB.
 Plotting yPi against xPi over theta2 = 0–360° produces the coupler curves.
+![MATLAB coupler paths](Picture/coupler_paths.png)
 
-P1, P2, and P3 trace different closed paths because they occupy different
-positions on the same rigid coupler. Each point returns to its initial
-position after one crank revolution. The geometry is checked by
-verifying that AB and O4–B remain equal to 75 mm throughout the motion.
+*Figure 1. Paths traced by P1, P2, and P3 during one complete input-crank revolution.*
 
 ## Part III: Simscape Multibody
 
