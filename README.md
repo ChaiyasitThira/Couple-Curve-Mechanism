@@ -30,6 +30,10 @@ Group Members:
 
 ### 1.1. Link and Joint Identification
 
+![pic1](Picture/kinematic_diagram.png)
+
+*Figure 1. Kinematic diagram showing the four links, four revolute joints, and coupler tracing points P1–P3.*
+
 ### 1.2. Degrees of Freedom (DOF)
 
 ## Part II: Symbolic Math for the Selected Mechanism
