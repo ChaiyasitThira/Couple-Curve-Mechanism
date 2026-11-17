@@ -8,10 +8,6 @@ Problem / purpose: TBD
 
 Team: นักรบมังกรคนสุดท้าย
 
-Status: Planning
-
-Last updated: 2026-11-11
-
 Group Members:
 
 | Name | Student ID |
