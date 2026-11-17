@@ -32,8 +32,6 @@ Group Members:
 
 ### 1.2. Degrees of Freedom (DOF)
 
-### 1.3. Workspace Analysis
-
 ## Part II: Symbolic Math for the Selected Mechanism
 
 ### 2.1. MATLAB Kinematic Simulation
