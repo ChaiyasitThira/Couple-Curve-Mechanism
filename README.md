@@ -137,7 +137,7 @@ The animation shows the linkage motion and tracing points.
 The x–y plots describe the generated paths, while the position, velocity, acceleration vs
 crank-angle plots show each point's coordinates throughout one revolution.
 
-
+![gif1](Animation/Coupler_curve_generator_motion.gif)
 
 *Video 1. MATLAB animation showing the linkage and synchronized position, velocity, and acceleration plots.*
 
@@ -201,7 +201,7 @@ $$
 The offsets beta_i are converted to radians for evaluation in MATLAB.
 Plotting yPi against xPi over theta2 = 0–360° produces the coupler curves.
 
-![MATLAB coupler paths](Picture/coupler_paths.png)
+![pic2](Picture/coupler_paths.png)
 
 *Figure 2. Paths traced by P1, P2, and P3 during one complete input-crank revolution.*
 
