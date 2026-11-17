@@ -134,10 +134,10 @@ at 361 crank angles with a 1° increment. A consistent assembly branch
 was selected, with joint B above the fixed link at the initial position.
 
 The animation shows the linkage motion and tracing points.
-The x–y plots describe the generated paths, while the position vs
+The x–y plots describe the generated paths, while the position, velocity, acceleration vs
 crank-angle plots show each point's coordinates throughout one revolution.
 
-[▶ Watch MATLAB animation](Animation/Coupler_curve_generator_motion.mp4)
+
 
 *Video 1. MATLAB animation showing the linkage and synchronized position, velocity, and acceleration plots.*
 
