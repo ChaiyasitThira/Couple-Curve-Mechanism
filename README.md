@@ -62,7 +62,9 @@ The animation shows the linkage motion and tracing points.
 The x–y plots describe the generated paths, while the position vs
 crank-angle plots show each point's coordinates throughout one revolution.
 
-[Watch the MATLAB path-generation animation](Animation/Ciupler_curve_generator_motion.mp4)
+[▶ Watch MATLAB animation](Animation/MCoupler_curve_generator_motion.mp4)
+
+*Video 1. MATLAB animation showing the linkage and synchronized position, velocity, and acceleration plots.*
 
 ### 2.2. Governing Equations and Position Analysis
 
