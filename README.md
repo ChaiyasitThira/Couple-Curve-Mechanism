@@ -19,10 +19,7 @@ Group Members:
 
 | Path | Purpose |
 |---|---|
-| hardware/ | CAD models, drawings, fabrication files, and bill of materials |
-| machine-skills/ | Machine commands, procedures, and skill instructions |
 | Simulation/ | Models, scripts, assumptions, and simulation results |
-| docs/ | Assembly, setup, operation, and maintenance instructions |
 | Picture/ | Pictures used in this README |
 | Animation/ | Animations used in this README |
 
