@@ -32,7 +32,7 @@ Group Members:
 
 ![pic1](Picture/kinematic_diagram.png)
 
-*Figure 1. Kinematic diagram showing the four links, four revolute joints, and coupler tracing points P1–P3.*
+*Figure 1. Kinematic diagram of coupler curve mechanism*
 
 ### 1.2. Degrees of Freedom (DOF)
 
@@ -130,7 +130,7 @@ Plotting yPi against xPi over theta2 = 0–360° produces the coupler curves.
 
 ![MATLAB coupler paths](Picture/coupler_paths.png)
 
-*Figure 1. Paths traced by P1, P2, and P3 during one complete input-crank revolution.*
+*Figure 2. Paths traced by P1, P2, and P3 during one complete input-crank revolution.*
 
 ## Part III: Simscape Multibody
 
