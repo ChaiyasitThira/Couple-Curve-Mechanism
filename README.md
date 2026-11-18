@@ -36,9 +36,9 @@ Group Members:
 | Link | Element |
 |---|---|
 | 1 | Ground O2–O4 |
-| 2 | Input crank O2–A |
+| 2 | Input O2–A |
 | 3 | Coupler A–B, carrying P1–P3 |
-| 4 | Output rocker O4–B |
+| 4 | Output O4–B |
 
 **Joint Identification**
 
@@ -128,16 +128,16 @@ coupler A–B, and output rocker O4–B.
 | omega2 | Constant input angular velocity | 1 rad/s |
 
 The loop-closure equations were solved symbolically and evaluated
-at 361 crank angles with a 1° increment. A consistent assembly branch
+at 360 crank angles with a 1° increment. A consistent assembly branch
 was selected, with joint B above the fixed link at the initial position.
 
 The animation shows the linkage motion and tracing points.
-The x–y plots describe the generated paths, while the position, velocity, acceleration vs
+The x–y plots describe the generated paths, while the position vs
 crank-angle plots show each point's coordinates throughout one revolution.
 
 ![gif1](Animation/Coupler_curve_generator_motion.gif)
 
-*Video 1. MATLAB animation showing the linkage and synchronized position, velocity, and acceleration plots.*
+*Video 1. MATLAB animation showing the linkage and synchronized position plots.*
 
 ### 2.2. Governing Equations and Position Analysis
 
@@ -189,15 +189,15 @@ $$
 The global coordinates are
 
 $$
-x_{P_i}=A_x+AP_i\cos(\theta_3+\beta_i)
+P_{x_i}=A_x+AP_i\cos(\theta_3+\beta_i)
 $$
 
 $$
-y_{P_i}=A_y+AP_i\sin(\theta_3+\beta_i).
+P_{y_i}=A_y+AP_i\sin(\theta_3+\beta_i).
 $$
 
 The offsets beta_i are converted to radians for evaluation in MATLAB.
-Plotting yPi against xPi over theta2 = 0–360° produces the coupler curves.
+Plotting Pyi against Pxi over theta2 = 0–360° produces the coupler curves.
 
 ![pic2](Picture/coupler_paths.png)
 
