@@ -49,7 +49,7 @@ Group Members:
 | B | Revolute | Lower pair (J1) |
 | O4 | Revolute | Lower pair (J1) |
 
-### 1.2. Degrees of Freedom and Grashof Analysis
+### 1.2. Degrees of Freedom
 
 For a planar mechanism, the Grübler–Kutzbach criterion is
 
