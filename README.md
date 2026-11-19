@@ -203,7 +203,159 @@ Plotting Pyi against Pxi over theta2 = 0–360° produces the coupler curves.
 
 *Figure 2. Paths traced by P1, P2, and P3 during one complete input-crank revolution.*
 
+
 ## Part III: Simscape Multibody
+
+### 3.1 Model Overview
+
+The Coupler Curve Mechanism was modeled and simulated using MATLAB Simulink and Simscape Multibody.
+
+The mechanism consists of four rigid links connected by four revolute joints, forming a planar four-bar linkage. The rotation of the crank generates three different trajectories at the selected pen positions on the coupler.
+
+### 3.2 CAD Model and Link Dimensions
+
+The mechanical components were designed in Autodesk Fusion 360 and exported as STEP files.
+
+| Link | Component | Color | Length |
+| :---: | :--- | :---: | :---: |
+| 1 | Ground (Base) | White | 90 mm |
+| 2 | Crank | Red | 30 mm |
+| 3 | Coupler | Blue | 75 mm |
+| 4 | Rocker | Green | 75 mm |
+
+The mechanism has one degree of freedom (DOF).
+
+#### Mechanism Rendering
+
+![Mechanism Render](Picture/Render.jpg)
+
+*Figure 1. Isometric view of the assembled mechanism.*
+
+### 3.3 Simscape Multibody Model
+
+The CAD components were imported using File Solid blocks. Rigid Transform blocks were used to define the joint positions and align the rotational axes.
+
+| Block | Function |
+| :--- | :--- |
+| World Frame | Defines the global reference frame |
+| Mechanism Configuration | Defines the mechanical environment |
+| File Solid | Imports the CAD geometry |
+| Rigid Transform | Adjusts the position and orientation of frames |
+| Revolute Joint | Allows rotational motion between links |
+| Ramp | Generates the input angular displacement |
+| Simulink-PS Converter | Converts the input into a physical signal |
+
+![Block Diagram](Picture/Block_Diagram.png)
+
+*Figure 2. Simscape Multibody block diagram.*
+
+### 3.4 Simulation Parameters
+
+The crank is driven by a prescribed angular displacement using a Ramp block.
+
+| Parameter | Value |
+| :--- | :---: |
+| Simulation Time | 5 s |
+| Ramp Slope | 2*pi/5 |
+| Nominal Angular Velocity | 1.2566 rad/s |
+| Nominal Angular Velocity | 72 deg/s |
+| Nominal Input Rotation | 360 deg |
+| Motion Actuation | Provided by Input |
+| Torque Actuation | Automatically Computed |
+| Input Signal Unit | rad |
+| Input Filtering | Second-order filtering |
+
+### 3.5 Rigid Transform Configuration
+
+The Rigid Transform blocks define the connection frames of the four-bar linkage.
+
+| Block | Translation Offset (mm) |
+| :--- | :---: |
+| Rigid Transform | [-45 0 8] |
+| Rigid Transform1 | [-30 0 -4] |
+| Rigid Transform2 | [0 0 16] |
+| Rigid Transform3 | [0 0 -5] |
+| Rigid Transform4 | [75 0 5] |
+| Rigid Transform5 | [37.5 0 -16] |
+| Rigid Transform6 | [37.5 0 10] |
+| Rigid Transform7 | [-45 0 -14] |
+
+The axial positions were adjusted to obtain the desired assembly configuration and reduce geometric interference.
+
+### 3.6 Mechanism Animation
+
+The motion of the mechanism was visualized using Multibody Explorer.
+
+The animation demonstrates the continuous rotation of the crank and the corresponding movement of the coupler and rocker.
+
+[Watch the Mechanism Animation](Animation/Mechanism.mp4)
+
+### 3.7 Motion Analysis
+
+The motion characteristics investigated in this project include:
+
+- Angular Position
+- Angular Velocity
+- Angular Acceleration
+
+These quantities can be obtained from the sensing outputs of the Revolute Joint blocks and converted into Simulink signals using PS-Simulink Converter blocks.
+
+#### Angular Position
+
+![Angular Position](Picture/Position.png)
+
+#### Angular Velocity
+
+![Angular Velocity](Picture/Velocity.png)
+
+#### Angular Acceleration
+
+![Angular Acceleration](Picture/Acceleration.png)
+
+### 3.8 Coupler Curve Analysis
+
+Three pen attachment positions were selected on the coupler to generate three different motion trajectories.
+
+| Point | X (mm) | Y (mm) | Z (mm) |
+| :---: | :---: | :---: | :---: |
+| P1 | 51.824 | 71.329 | 5 |
+| P2 | 150.000 | 0.000 | 5 |
+| P3 | 135.676 | -44.084 | 5 |
+
+The trajectories can be obtained by measuring the global X and Y coordinates of each point using Transform Sensor blocks.
+
+![Coupler Curves](Picture/Coupler_Curves.png)
+
+*Figure 3. Motion trajectories of the three selected coupler points.*
+
+### 3.9 Force and Torque Analysis
+
+The driving torque and joint reaction forces can be investigated using the sensing options of the Revolute Joint blocks.
+
+Accurate force analysis requires appropriate mass, material properties, moments of inertia, gravity settings, and loading conditions.
+
+![Force Analysis](Picture/Force_Analysis.png)
+
+### 3.10 Simulation Results and Discussion
+
+The Simscape Multibody model demonstrates the movement of the four-bar linkage.
+
+The positions of the rigid links and joint frames were adjusted to represent the actual mechanical assembly. The simulation provides a visualization of the relationship between the crank input and the resulting coupler motion.
+
+The simulation results can be compared with the symbolic mathematical analysis and the physical prototype.
+
+### 3.11 Instructions for Running the Simulation
+
+1. Download the Simulink model and STEP files from the Simulation folder.
+2. Place all files in the same directory.
+3. Open MATLAB Simulink.
+4. Set the Current Folder to the model directory.
+5. Open the .slx file.
+6. Verify the STEP file references.
+7. Set the Stop Time to 5 seconds.
+8. Click Run.
+9. View the mechanism motion in Multibody Explorer.
+
 
 ## Part IV: Built Mechanism
 
