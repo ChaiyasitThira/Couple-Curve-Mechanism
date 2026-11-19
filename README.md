@@ -380,17 +380,20 @@ The positions of the rigid links and joint frames were adjusted to represent the
 
 The simulation results can be compared with the symbolic mathematical analysis and the physical prototype.
 
+
 ### 3.11 Instructions for Running the Simulation
 
-1. Download the Simulink model and STEP files from the Simulation folder.
+1. Download the Simulink model and all STEP files from the Simulation folder.
 2. Place all files in the same directory.
 3. Open MATLAB Simulink.
 4. Set the Current Folder to the model directory.
 5. Open the .slx file.
 6. Verify the STEP file references.
-7. Set the Stop Time to 5 seconds.
+7. Set the Stop Time to 10 seconds.
 8. Click Run.
-9. View the mechanism motion in Multibody Explorer.
+9. Visualize the mechanism using Multibody Explorer.
+10. Obtain the motion analysis results from the sensing outputs.
+
 
 
 ## Part IV: Built Mechanism
