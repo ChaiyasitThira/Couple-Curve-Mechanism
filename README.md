@@ -1,4 +1,4 @@
-# Couple Curve Mechanism
+# Coupler Curve Mechanism
 
 ## Project overview
 
