@@ -2,7 +2,7 @@
 
 ## Project overview
 
-Project name: Couple Curve Mechanism
+Project name: Coupler Curve Mechanism
 
 Team: นักรบมังกรคนสุดท้าย
 
