@@ -404,22 +404,15 @@ The simulation results can be compared with the symbolic mathematical analysis a
 
 *Figure 3. Fusion 360 model of the built mechanism.*
 
-| Variable | Link | Colour in Physical Prototype | Pin-to-Pin Length |
+| Variable | Link | Colour in Physical Prototype | Length |
 |:---:|---|---|:---:|
-| `g` | **Link 1: Ground** | White base plate | 100 mm ($O_2\text{–}O_4$) |
-| `a` | **Link 2: Crank** | Green bar | 50 mm ($O_2\text{–}A$) |
-| `b` | **Link 3: Coupler** | Blue triangular plate with holes at $P_1\text{–}P_3$ | 150 mm ($A\text{–}B$) |
-| `c` | **Link 4: Rocker** | Red bar *(orange in Simscape)* | 140 mm ($O_4\text{–}B$) |
+| `g` | **Link 1: Ground** | White base plate | 90 mm  |
+| `a` | **Link 2: Crank** | Green bar | 30 mm  |
+| `b` | **Link 3: Coupler** | Blue triangular plate with holes at $P_1\text{–}P_3$ | 75 mm  |
+| `c` | **Link 4: Rocker** | Red bar *(orange in Simscape)* | 75 mm  |
 
-**Grashof check for the prototype**
+Shafts are printed as part of the links, so they are not listed separately. Shaft holes are 6 mm in diameter.
 
-$$
-s + l = 50 + 150 = 200 \text{ mm}, \qquad p + q = 100 + 140 = 240 \text{ mm}
-$$
-
-$$
-200 < 240
-$$
 
 The prototype satisfies the strict Grashof condition, and the shortest link (crank $a$) is adjacent to the ground, so it is a **crank–rocker**: the green crank turns a full 360° while the red rocker oscillates about $O_4$.
 
@@ -429,21 +422,7 @@ The prototype satisfies the strict Grashof condition, and the shortest link (cra
 
 All parts were designed in **Fusion 360** and 3D printed with **ABS** material.
 
-The shafts were printed together with the links as single parts. At each joint, the shaft on one link passes through a **6 mm shaft hole** in the mating link, and a retaining ring is fitted on the shaft to stop the links from sliding apart.
-
----
-
-### 4.3. Parts List
-
-| No. | Part | Colour | Qty | Material | Key dimensions |
-|:---:|---|---|:---:|---|---|
-| 1 | Ground / base plate | White | 1 | ABS | $O_2\text{–}O_4$ = 100 mm |
-| 2 | Crank | Green | 1 | ABS | $O_2\text{–}A$ = 50 mm |
-| 3 | Coupler | Blue | 1 | ABS | $A\text{–}B$ = 150 mm, holes at $P_1\text{–}P_3$ |
-| 4 | Rocker | Red | 1 | ABS | $O_4\text{–}B$ = 140 mm |
-| 5 | Retaining ring | — | — | — | diameter 6 mm  |
-
-Shafts are printed as part of the links, so they are not listed separately. Shaft holes are 6 mm in diameter.
+The shafts were printed together with the links as single parts. At each joint, the shaft on one link passes through a **6 mm shaft hole** in the mating link, and a retaining ring is fitted on the shaft to stop the links from sliding apart (Retaining ring = diameter 6 mm).
 
 ---
 
