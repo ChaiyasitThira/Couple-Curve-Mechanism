@@ -228,9 +228,9 @@ The four-bar mechanism was constructed using File Solid, Rigid Transform, and Re
   <img src="./Picture/Block_Diagram.png" width="900">
 </p>
 
-*Figure 4. Simscape Multibody block diagram of the Coupler Curve Mechanism.*
+**Figure 4. Simscape Multibody block diagram of the Coupler Curve Mechanism, including crank motion input, joint motion outputs, and three position sensors for coupler-curve tracing.**
 
-Rigid Transform blocks define the joint locations and align the connection frames. The crank is driven by a prescribed angular displacement through a Ramp block. Transform Sensors are used to measure the trajectories of the three tracing points.
+The Simscape Multibody model was constructed using File Solid, Rigid Transform, Revolute Joint, and Transform Sensor blocks. A ramp input was applied to the crank joint to drive the mechanism. The model also includes three sensing points on the coupler to obtain the x- and y-coordinates used for coupler-curve generation.
 
 
 
