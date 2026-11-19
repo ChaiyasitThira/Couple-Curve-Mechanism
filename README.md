@@ -279,9 +279,10 @@ The animation illustrates the continuous rotation of the crank and the resulting
 The angular position increases approximately linearly from 0 to 12.55 rad, indicating nearly constant rotational speed. The crank completes approximately two revolutions, consistent with the prescribed input motion.
 
 
+
 #### Coupler Curves
 
-The trajectories of the three pen attachment points can be obtained using Transform Sensor blocks to measure their X and Y positions relative to the World Frame.
+The trajectories of the three pen attachment points were measured using Transform Sensor blocks relative to the World Frame.
 
 <p align="center">
   <img src="./Picture/Coupler_Curves.png" width="750">
@@ -289,7 +290,12 @@ The trajectories of the three pen attachment points can be obtained using Transf
 
 *Figure 6. Simulated trajectories of the three pen attachment points on the coupler.*
 
-The simulation demonstrates that different attachment positions on the same coupler produce distinct motion trajectories using a single rotational input.
+- **P1 (Blue):** A narrow, inclined closed curve.
+- **P2 (Black):** A wide, horizontally oriented closed curve.
+- **P3 (Red):** A rounded triangular-like closed curve.
+
+The simulated trajectories show good qualitative agreement with the theoretical results presented in Part II.
+
 
 
 
