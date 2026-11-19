@@ -301,6 +301,7 @@ The axial positions were adjusted to obtain the desired assembly configuration a
 
 
 
+
 ### 3.6 Mechanism Animation
 
 The motion of the four-bar linkage was simulated and visualized using Simscape Multibody Explorer.
@@ -316,6 +317,7 @@ The animation demonstrates the rotation of the crank and the resulting motion of
 </p>
 
 [Download Original Mechanism Animation (.avi)](./Animation/Mechanism.avi)
+
 
 
 
