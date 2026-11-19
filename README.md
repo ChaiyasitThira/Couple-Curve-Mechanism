@@ -300,15 +300,23 @@ The Rigid Transform blocks define the connection frames of the four-bar linkage.
 The axial positions were adjusted to obtain the desired assembly configuration and reduce geometric interference.
 
 
+
 ### 3.6 Mechanism Animation
 
 The motion of the four-bar linkage was simulated and visualized using Simscape Multibody Explorer.
 
 The animation demonstrates the rotation of the crank and the resulting motion of the coupler and rocker.
 
-The recorded simulation is available below.
+<p align="center">
+  <img src="./Animation/Mechanism.gif" width="750">
+</p>
 
-[Download Mechanism Animation (.avi)](./Animation/Mechanism.avi)
+<p align="center">
+  <em>Figure 3. Animation of the Coupler Curve Mechanism.</em>
+</p>
+
+[Download Original Mechanism Animation (.avi)](./Animation/Mechanism.avi)
+
 
 
 
