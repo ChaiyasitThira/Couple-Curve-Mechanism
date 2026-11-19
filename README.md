@@ -309,7 +309,7 @@ The motion of the four-bar linkage was simulated and visualized using Simscape M
 The animation demonstrates the rotation of the crank and the resulting motion of the coupler and rocker.
 
 <p align="center">
-  <img src="./Animation/Mechanism.gif" width="750">
+  <img src="./Picture/Mechanism.gif" width="750">
 </p>
 
 <p align="center">
