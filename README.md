@@ -209,12 +209,16 @@ Plotting Pyi against Pxi over theta2 = 0–360° produces the coupler curves.
 
 ### 4.1. Physical Prototype Dimensions
 
+![pic3](Picture/1795067572092_image.png)
+
+*Figure 3. Fusion 360 model of the built mechanism.*
+
 | Variable | Link | Colour in Physical Prototype | Pin-to-Pin Length |
 |:---:|---|---|:---:|
-| `g` | **Link 1: Ground** | White base plate | 100 mm ($O_2$–$O_4$) |
-| `a` | **Link 2: Crank** | Green bar | 50 mm ($O_2$–$A$) |
-| `b` | **Link 3: Coupler** | Blue triangular plate with holes at $P_1$–$P_3$ | 150 mm ($A$–$B$) |
-| `c` | **Link 4: Rocker** | Red bar *(orange in Simscape)* | 140 mm ($O_4$–$B$) |
+| `g` | **Link 1: Ground** | White base plate | 100 mm ($O_2\text{–}O_4$) |
+| `a` | **Link 2: Crank** | Green bar | 50 mm ($O_2\text{–}A$) |
+| `b` | **Link 3: Coupler** | Blue triangular plate with holes at $P_1\text{–}P_3$ | 150 mm ($A\text{–}B$) |
+| `c` | **Link 4: Rocker** | Red bar *(orange in Simscape)* | 140 mm ($O_4\text{–}B$) |
 
 **Grashof check for the prototype**
 
@@ -242,10 +246,10 @@ The shafts were printed together with the links as single parts. At each joint, 
 
 | No. | Part | Colour | Qty | Material | Key dimensions |
 |:---:|---|---|:---:|---|---|
-| 1 | Ground / base plate | White | 1 | ABS | $O_2$–$O_4$ = 100 mm |
-| 2 | Crank | Green | 1 | ABS | $O_2$–$A$ = 50 mm |
-| 3 | Coupler | Blue | 1 | ABS | $A$–$B$ = 150 mm, holes at $P_1$–$P_3$ |
-| 4 | Rocker | Red | 1 | ABS | $O_4$–$B$ = 140 mm |
+| 1 | Ground / base plate | White | 1 | ABS | $O_2\text{–}O_4$ = 100 mm |
+| 2 | Crank | Green | 1 | ABS | $O_2\text{–}A$ = 50 mm |
+| 3 | Coupler | Blue | 1 | ABS | $A\text{–}B$ = 150 mm, holes at $P_1\text{–}P_3$ |
+| 4 | Rocker | Red | 1 | ABS | $O_4\text{–}B$ = 140 mm |
 | 5 | Retaining ring | — | — | — | diameter 6 mm  |
 
 Shafts are printed as part of the links, so they are not listed separately. Shaft holes are 6 mm in diameter.
@@ -256,5 +260,5 @@ Shafts are printed as part of the links, so they are not listed separately. Shaf
 
 <!-- TODO: add photo of the finished mechanism here -->
 
-*Figure 3. Assembled coupler-curve mechanism.*
+*Figure 4. Assembled coupler-curve mechanism.*
 ---
