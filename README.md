@@ -308,27 +308,47 @@ The recorded simulation is available below.
 [Download Mechanism Animation (.avi)](./Animation/Mechanism.avi)
 
 
+
 ### 3.7 Motion Analysis
 
-The motion characteristics investigated in this project include:
+The angular position, velocity, and acceleration of the
+crank were measured using the sensing outputs of the
+Revolute Joint in Simscape Multibody.
 
-- Angular Position
-- Angular Velocity
-- Angular Acceleration
-
-These quantities can be obtained from the sensing outputs of the Revolute Joint blocks and converted into Simulink signals using PS-Simulink Converter blocks.
+The simulation was performed over a period of 10 seconds
+with a prescribed angular velocity of 1.2566 rad/s.
 
 #### Angular Position
 
-![Angular Position](Picture/Position.png)
+![Angular Position](./Picture/Position.png)
+
+The angular position increases approximately linearly
+from 0 to 12.55 rad over 10 seconds, corresponding to
+approximately two complete revolutions of the crank.
 
 #### Angular Velocity
 
-![Angular Velocity](Picture/Velocity.png)
+![Angular Velocity](./Picture/Velocity.png)
+
+The angular velocity rapidly increases from zero and
+reaches a steady-state value of approximately
+1.2566 rad/s (72 deg/s), which agrees with the
+prescribed Ramp input.
 
 #### Angular Acceleration
 
-![Angular Acceleration](Picture/Acceleration.png)
+![Angular Acceleration](./Picture/Acceleration.png)
+
+The angular acceleration reaches an initial peak of
+approximately 46 rad/s² during the startup transient.
+
+After the initial transient period, the angular
+acceleration approaches zero, indicating that the
+crank rotates at a nearly constant angular velocity.
+
+The initial transient is consistent with the use of
+second-order input filtering in the simulation.
+
 
 ### 3.8 Coupler Curve Analysis
 
