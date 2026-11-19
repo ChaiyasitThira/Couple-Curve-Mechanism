@@ -233,20 +233,23 @@ The four-bar mechanism was constructed using File Solid, Rigid Transform, and Re
 Rigid Transform blocks define the joint locations and align the connection frames. The crank is driven by a prescribed angular displacement through a Ramp block. Transform Sensors are used to measure the trajectories of the three tracing points.
 
 
+
 ### 3.3 Simulation Parameters
 
 | Parameter | Value |
 | :--- | :---: |
 | Simulation Time | 10 s |
-| Ramp Slope | 2*pi/5 |
+| Ramp Slope | 2*pi/5 rad/s |
 | Input Angular Velocity | 1.2566 rad/s |
 | Rotation Period | 5 s |
 | Nominal Number of Revolutions | 2 |
 | Motion Actuation | Provided by Input |
 | Torque Actuation | Automatically Computed |
+| Input Signal Unit | rad |
 | Input Filtering | Second-order |
 
 Rigid Transform blocks were used to align the joint axes and adjust the relative positions of the mechanical components.
+
 
 
 ### 3.4 Mechanism Animation
