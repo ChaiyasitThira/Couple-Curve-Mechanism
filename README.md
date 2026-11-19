@@ -313,7 +313,7 @@ The animation demonstrates the rotation of the crank and the resulting motion of
 </p>
 
 <p align="center">
-  <em>Figure 3. Animation of the Coupler Curve Mechanism.</em>
+  <em>Video 2. Animation of the Coupler Curve Mechanism.</em>
 </p>
 
 [Download Original Mechanism Animation (.avi)](./Animation/Mechanism.avi)
