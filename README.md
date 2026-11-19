@@ -320,7 +320,7 @@ These results support the kinematic consistency of the mechanism.
 
 ![pic3](Picture/1795067572092_image.png)
 
-*Figure 5. Fusion 360 model of the built mechanism.*
+*Figure 7. Fusion 360 model of the built mechanism.*
 
 | Variable | Link | Colour in Physical Prototype | Length |
 |:---:|---|---|:---:|
@@ -348,5 +348,5 @@ The shafts were printed together with the links as single parts. At each joint, 
 
 <!-- TODO: add photo of the finished mechanism here -->
 
-*Figure 6. Assembled coupler-curve mechanism.*
+*Figure 8. Assembled coupler-curve mechanism.*
 ---
