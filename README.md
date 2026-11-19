@@ -282,9 +282,13 @@ The angular position increases approximately linearly from 0 to 12.55 rad, indic
 
 The trajectories of the three pen attachment points can be obtained using Transform Sensor blocks to measure their X and Y positions relative to the World Frame.
 
-<!-- Insert the Coupler Curves graph and discussion here after completing the simulation. -->
+<p align="center">
+  <img src="./Picture/Coupler_Curves.png" width="750">
+</p>
 
 *Figure 6. Simulated trajectories of the three pen attachment points on the coupler.*
+
+The simulation demonstrates that different attachment positions on the same coupler produce distinct motion trajectories using a single rotational input.
 
 
 ### 3.6 Simulation Results
