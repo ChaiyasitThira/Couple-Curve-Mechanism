@@ -291,17 +291,21 @@ The trajectories of the three pen attachment points can be obtained using Transf
 The simulation demonstrates that different attachment positions on the same coupler produce distinct motion trajectories using a single rotational input.
 
 
-### 3.6 Simulation Results
 
-The simulation demonstrates the continuous rotation of the crank and the corresponding motion of the coupler and rocker.
+### 3.6 Simulation Results and Discussion
 
-The Simscape Multibody model provides a visualization of the four-bar mechanism and supports comparison with the theoretical analysis in Part II.
+The Simscape Multibody simulation successfully demonstrates the motion of the four-bar Coupler Curve Mechanism.
+
+The crank rotates at a nominal angular velocity of 1.2566 rad/s, completing approximately two revolutions over the 10-second simulation.
+
+The three simulated coupler curves show good qualitative agreement with the theoretical results presented in Part II. The observed horizontal offset of approximately 45 mm is likely associated with the difference in coordinate origins.
+
+Overall, the simulation supports the kinematic consistency of the mechanism and demonstrates its ability to generate three distinct closed trajectories.
 
 #### Simulation Files
 
-[Access Simulink Model and STEP Files](./Simulation)
+[Simulink Model and STEP Files](./Simulation)
 
-To run the simulation, download the model and STEP files, place them in the same directory, open the Simulink model, verify the STEP file references, and click Run.
 
 
 ## Part IV: Built Mechanism
