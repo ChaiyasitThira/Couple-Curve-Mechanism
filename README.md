@@ -299,15 +299,14 @@ The simulated trajectories show good qualitative agreement with the theoretical 
 
 
 
+
 ### 3.6 Simulation Results and Discussion
 
-The Simscape Multibody simulation successfully demonstrates the motion of the four-bar Coupler Curve Mechanism.
+The Simscape Multibody simulation successfully demonstrates the continuous motion of the crank-rocker mechanism and its ability to generate three distinct closed trajectories.
 
-The crank rotates at a nominal angular velocity of 1.2566 rad/s, completing approximately two revolutions over the 10-second simulation.
+The simulated coupler curves show good qualitative agreement with the theoretical results in Part II. The observed horizontal offset of approximately 45 mm is likely due to the different coordinate origins used in the two models.
 
-The three simulated coupler curves show good qualitative agreement with the theoretical results presented in Part II. The observed horizontal offset of approximately 45 mm is likely associated with the difference in coordinate origins.
-
-Overall, the simulation supports the kinematic consistency of the mechanism and demonstrates its ability to generate three distinct closed trajectories.
+These results support the kinematic consistency of the mechanism.
 
 #### Simulation Files
 
