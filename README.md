@@ -313,11 +313,12 @@ The recorded simulation is available below.
 
 
 
-### 3.7 Motion Analysis
 
-The angular position, velocity, and acceleration of the crank were obtained from the Revolute Joint sensing outputs in Simscape Multibody.
+### 3.7 Position Analysis
 
-The simulation was performed over 10 seconds with a prescribed angular velocity of 1.2566 rad/s.
+The angular position of the crank was obtained from the Revolute Joint sensing output in Simscape Multibody.
+
+The simulation was performed over a period of 10 seconds.
 
 #### Angular Position
 
@@ -327,25 +328,8 @@ The simulation was performed over 10 seconds with a prescribed angular velocity 
 
 The angular position increases approximately linearly from 0 to 12.55 rad, corresponding to approximately two complete revolutions of the crank.
 
-#### Angular Velocity
+The result demonstrates the continuous rotation of the input link and provides a reference for the coupler curve analysis.
 
-<p align="center">
-  <img src="./Picture/Velocity.png" width="750">
-</p>
-
-The angular velocity rapidly increases from zero and reaches a steady-state value of approximately 1.2566 rad/s (72 deg/s), which is consistent with the prescribed Ramp input.
-
-#### Angular Acceleration
-
-<p align="center">
-  <img src="./Picture/Acceleration.png" width="750">
-</p>
-
-The angular acceleration reaches an initial peak of approximately 46 rad/s² during the startup transient.
-
-After the initial transient, the angular acceleration approaches zero, indicating nearly constant angular velocity.
-
-The startup transient is consistent with the second-order input filtering used in the simulation.
 
 
 ### 3.8 Coupler Curve Analysis
