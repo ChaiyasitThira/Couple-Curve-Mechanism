@@ -346,7 +346,7 @@ The shafts were printed together with the links as single parts. At each joint, 
 
 ### 4.3. Finished Prototype
 
-<!-- TODO: add photo of the finished mechanism here -->
+<p align="center"><img src="Picture/finished_prototype.jpg" alt="Finished prototype" width="600"></p>
 
 *Figure 8. Assembled coupler-curve mechanism.*
 ---
